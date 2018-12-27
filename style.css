@@ -157,7 +157,7 @@ nav {
 }
 .hero-img {
     /* background: linear-gradient(90deg, rgba(255, 213, 213, 0.3), rgba(255, 48, 48, 0.2)), url(img/landscape.png); */
-    background: linear-gradient(90deg, rgba(255, 213, 213, 0.2), rgba(248, 107, 107, 0.1)), url(img/hero-img.svg);
+    background: linear-gradient(90deg, rgba(252, 147, 147, 0.2), rgba(252, 63, 63, 0.1)), url(img/hero-img.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
