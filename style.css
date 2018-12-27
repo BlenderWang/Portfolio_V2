@@ -34,7 +34,7 @@ nav {
 .menu-btn {
     position: absolute;
     width: 3rem;
-    height: 2rem;
+    height: 1rem;
     top: 0;
     right: 0;
 }
@@ -139,7 +139,7 @@ nav {
 .lowpolyBg {
     max-width: 15%;
     width: 6rem;
-    height: 4.2rem;
+    height: 4rem;
     border-radius: 50%;
     background-color: #f1f1f1;
     position: relative;
@@ -157,7 +157,7 @@ nav {
 }
 .hero-img {
     /* background: linear-gradient(90deg, rgba(255, 213, 213, 0.3), rgba(255, 48, 48, 0.2)), url(img/landscape.png); */
-    background: linear-gradient(90deg, rgba(252, 147, 147, 0.2), rgba(252, 63, 63, 0.1)), url(img/hero-img.svg);
+    background: linear-gradient(90deg, rgba(255, 213, 213, 0.3), rgba(255, 48, 48, 0.2)), url(img/hero-img.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -248,11 +248,11 @@ nav {
 
 /* skills & contact <p> */
 #skills > p, #contact > p {
-    text-align: center;
+    text-align: justify;
     font-family: 'Oswald', sans-serif;
     font-size: 1.1rem;
     color: #4b4b4b;
-    max-width: 100%;
+    max-width: 80%;
     margin: auto;
     padding-bottom: 5vh;
 }
@@ -367,7 +367,7 @@ svg {
 }
 .wrapper-title {
     font-family: 'Anton', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 300;
     text-transform: capitalize;
     height: 8vh;
@@ -391,10 +391,6 @@ svg {
 #contact {
     min-height: 0;
     padding: 0;
-}
-#contact p {
-    margin-left: 1em;
-    margin-right: 1em;
 }
 #rectBg {
     max-width: 100%;
@@ -452,6 +448,9 @@ svg {
 }
 
 @media(min-width: 670px) {
+    .menu-btn {
+        height: 2rem;
+    }
     .menu-list {
         top: 3.8rem;
         font-size: 1.2em;
@@ -465,6 +464,12 @@ svg {
     }
     .title-text {
         font-size: 1.2em;
+    }
+    #skills > p, #contact > p {
+        max-width: 90%;
+    }
+    .wrapper-title {
+        font-size: 1.5rem;
     }
     .scroll-top {
         width: 4rem;
