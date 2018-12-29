@@ -212,7 +212,7 @@ nav {
 }
 
 @media(min-width: 900px) {
-    #about .left, #about .right {
+/*    #about .left, #about .right {
         width: 40%;
         margin: 1rem;
     }
@@ -225,7 +225,7 @@ nav {
     .clear {
         clear: both;
     }
-
+*/
     @supports (display: flex) {
         #about {
             display: flex;
