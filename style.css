@@ -225,6 +225,21 @@ nav {
     .clear {
         clear: both;
     }
+
+    @supports (display: flex) {
+        #about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #about > h2 {
+            width: 100vw;
+        }
+        #about .left, #about .right {
+            width: 43%;
+            margin: 2rem;
+        }
+    }
 }
 
 #about em {
