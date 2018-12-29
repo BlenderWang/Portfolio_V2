@@ -63,7 +63,6 @@ $(document).ready(function() {
 
     function highlightLinks() {
         const linkCoords = this.getBoundingClientRect();
-        console.log(linkCoords);
 
         const coords = {
             width: linkCoords.width,
@@ -81,18 +80,18 @@ $(document).ready(function() {
 });
 
 // delaying pie chart animation
-const charts = document.querySelector("#skills");
-const topOfCharts = charts.offsetTop;
+// const charts = document.querySelector("#skills");
+// const topOfCharts = charts.offsetTop;
 
-function fixCharts() {
-  if (window.scrollY >= topOfCharts) {
-    // document.body.style.paddingTop = charts.offsetHeight + 'px';
-    document.body.classList.add("circle_animation");
-  } else {
-    // document.body.style.paddingTop = 0;
-    document.body.classList.remove("circle_animation");
-  }
-  console.log(topOfCharts, window.scrollY);
-}
+// function fixCharts() {
+//   if (window.scrollY >= topOfCharts) {
+//     // document.body.style.paddingTop = charts.offsetHeight + 'px';
+//     document.body.classList.add("circle_animation");
+//   } else {
+//     // document.body.style.paddingTop = 0;
+//     document.body.classList.remove("circle_animation");
+//   }
+//   console.log(topOfCharts, window.scrollY);
+// }
 
-window.addEventListener("scroll", fixCharts);
+// window.addEventListener("scroll", fixCharts);
