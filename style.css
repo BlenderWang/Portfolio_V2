@@ -226,7 +226,7 @@ nav {
         clear: both;
     }
 
-/*    @supports (display: flex) {
+    @supports (display: flex) {
         #about {
             display: flex;
             flex-wrap: wrap;
@@ -238,7 +238,7 @@ nav {
         #about .left, #about .right {
             width: 43%;
             margin: 2rem;
-        }*/
+        }
     }
 }
 
