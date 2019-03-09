@@ -1,16 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Oswald|Righteous');
-/* font-family: 'Oswald', sans-serif; -- for <p>
-font-family: 'Anton', sans-serif; -- for <h2>
-font-family: 'Righteous', cursive; -- for <header> title & texts */
-/* :root {
-    --font-title: 'Righteous', cursive, Helvetica, sans-serif;
-    --font-heading: 'Anton', sans-serif;
-    --font-txt: 'Oswald', sans-serif;
-
-    --clr-bg: #f1f1f1;
-    --clr-txt: #4b4b4b;
-    --clr-primary: rgba(148, 5, 17, 0.836);
-} */
 
 html {
     box-sizing: border-box;
