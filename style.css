@@ -301,52 +301,52 @@ svg {
     -webkit-animation: js 1s ease-in-out forwards;
     animation: js 1s ease-in-out forwards;
 }
-.graphics .circle_animation {
-    -webkit-animation: graphics 1s ease-in-out forwards;
-    animation: graphics 1s ease-in-out forwards;
+.backend .circle_animation {
+    -webkit-animation: backend 1s ease-in-out forwards;
+    animation: backend 1s ease-in-out forwards;
 }
-.animation .circle_animation {
-    -webkit-animation: animation 1s ease-in-out forwards;
-    animation: animation 1s ease-in-out forwards;
+.misc .circle_animation {
+    -webkit-animation: misc 1s ease-in-out forwards;
+    animation: misc 1s ease-in-out forwards;
 }
 @-webkit-keyframes html-css {
     to {
-      stroke-dashoffset: 120; /* 50% would be 220 (half the initial value specified above) */
+      stroke-dashoffset: 100; /* 50% would be 220 (half the initial value specified above) */
     }
 }
 @keyframes html-css {
     to {
-      stroke-dashoffset: 120;
+      stroke-dashoffset: 100;
     }
 }
 @-webkit-keyframes js {
     to {
-      stroke-dashoffset: 280;
+      stroke-dashoffset: 220;
     }
 }
 @keyframes js {
     to {
-      stroke-dashoffset: 280;
+      stroke-dashoffset: 220;
     }
 }
-@-webkit-keyframes graphics {
+@-webkit-keyframes backend {
     to {
-      stroke-dashoffset: 100;
+      stroke-dashoffset: 360;
     }
 }
-@keyframes graphics {
+@keyframes backend {
     to {
-      stroke-dashoffset: 100;
+      stroke-dashoffset: 360;
     }
 }
-@-webkit-keyframes animation {
+@-webkit-keyframes misc {
     to {
-      stroke-dashoffset: 200;
+      stroke-dashoffset: 60;
     }
 }
-@keyframes animation {
+@keyframes misc {
     to {
-      stroke-dashoffset: 200;
+      stroke-dashoffset: 60;
     }
 }
 
