@@ -379,6 +379,10 @@ svg {
     justify-content: center;
     color: #f1f1f1;
 }
+.wrapper video {
+    width: 100%;
+    height: auto;
+}
 .footnote {
     color: rgb(148, 5, 17);
     font-family: 'Anton', sans-serif;
@@ -386,8 +390,9 @@ svg {
 }
 
 .footnote a {
-    color: #4b4b4b;
-    text-decoration: none;
+    color: #f1f1f1;
+    text-decoration: underline;
+    letter-spacing: 4px;
 }
 
 /* footer #contact */
