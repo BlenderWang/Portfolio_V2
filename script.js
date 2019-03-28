@@ -1,36 +1,34 @@
 $(document).ready(function() {
     $('.menu-list').hide();
+    hideMenuList();
     $('.hamburger').click(function(e) {
         e.preventDefault();
         e.stopPropagation();
         $(this).toggleClass('open');
         $('.menu-list').slideToggle(200);
     });
-
-    // click anywhere to close the .open from .menu-list
-    $(document).click(function(e) {
-        if(e.target != $('.menu-list')[0]) {
-            $('.menu-list').slideToggle(200);
-            $('.menu-list').hide();
-            $('.hamburger').removeClass('open');
-        }
-    });
 });
 
-// function ready(fn) {
-//     if (document.readyState !== 'loading'){
-//         fn();
-//     } else {
-//         document.addEventListener('DOMContentLoaded', fn);
-//     }
+
+const menuList = document.querySelector('.menu-list');
+const menuBtn = document.querySelector('.menu-btn');
+
+// menuBtn.onclick = () => {
+//     console.log(menuBtn.classList);
+//     menuBtn.classList.toggle('open');
 // }
 
-// function fn() {
-//     console.log('doc is ready');
-// }
+// click anywhere to close the .open from .menu-list
+function hideMenuList() {
+    document.addEventListener('click', (e) => {
+        if(e.target.classList !== 'menu-list') {
+            menuList.style.display = 'none';
+        }
+        menuBtn.classList.remove('open');
+    });
+}
 
-// fn();
-
+hideMenuList();
 
 // The arrow appears after scrolling half page
 const scrollTop = document.querySelector('.scroll-top');
