@@ -1,6 +1,4 @@
-$(document).ready(function() {
-    $('.menu-list').hide();
-    hideMenuList();
+$(document).ready(() => {
     $('.hamburger').click(function(e) {
         e.preventDefault();
         e.stopPropagation();
@@ -12,11 +10,6 @@ $(document).ready(function() {
 
 const menuList = document.querySelector('.menu-list');
 const menuBtn = document.querySelector('.menu-btn');
-
-// menuBtn.onclick = () => {
-//     console.log(menuBtn.classList);
-//     menuBtn.classList.toggle('open');
-// }
 
 // click anywhere to close the .open from .menu-list
 function hideMenuList() {
